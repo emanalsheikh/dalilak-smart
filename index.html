@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Foodie | Recipes</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="container navbar">
+
+            <a href="#" class="logo">Foodie<span>.</span></a>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#ingredients">Ingredients</a></li>
+
+                <li><a href="#popular">Recipes</a></li>
+
+            </ul>
+
+            <a href="#popular" class="nav-button">Explore Recipes</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="featured container" id="home">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">COOK SOMETHING AMAZING</p>
+
+                <h1>Discover Your Next <span>Favorite Recipe</span></h1>
+
+                <p class="intro">Simple ingredients, delicious meals, and recipes made for everyone.</p>
+
+            </div>
+
+            <div class="slider">
+
+                <input type="radio" name="recipe" id="recipe1" checked>
+
+                <input type="radio" name="recipe" id="recipe2">
+
+                <input type="radio" name="recipe" id="recipe3">
+
+                <div class="slides">
+
+                    <article class="recipe-slide slide-one">
+
+                        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=85" alt="Pasta with fresh vegetables">
+
+                        <div class="recipe-info">
+
+                            <span class="tag">FEATURED RECIPE</span>
+
+                            <h2>Creamy Vegetable Pasta</h2>
+
+                            <p>A delicious pasta dish with fresh vegetables, creamy sauce, and aromatic herbs.</p>
+
+                            <div class="recipe-meta">
+
+                                <span>Prep: 15 min</span>
+
+                                <span>Cook: 20 min</span>
+
+                                <span>Serves: 2</span>
+
+                            </div>
+
+                            <a href="#ingredients" class="recipe-button">View Recipe</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="recipe-slide slide-two">
+
+                        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=85" alt="Fresh colorful salad">
+
+                        <div class="recipe-info">
+
+                            <span class="tag">FRESH & HEALTHY</span>
+
+                            <h2>Fresh Garden Salad</h2>
+
+                            <p>A refreshing salad with crunchy vegetables, olive oil, and a zesty lemon dressing.</p>
+
+                            <div class="recipe-meta">
+
+                                <span>Prep: 10 min</span>
+
+                                <span>Cook: 0 min</span>
+
+                                <span>Serves: 2</span>
+
+                            </div>
+
+                            <a href="#ingredients" class="recipe-button">View Recipe</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="recipe-slide slide-three">
+
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=85" alt="Homemade pizza">
+
+                        <div class="recipe-info">
+
+                            <span class="tag">FAMILY FAVORITE</span>
+
+                            <h2>Homemade Pizza</h2>
+
+                            <p>Crispy golden crust topped with tomato sauce, melted cheese, and fresh basil.</p>
+
+                            <div class="recipe-meta">
+
+                                <span>Prep: 20 min</span>
+
+                                <span>Cook: 25 min</span>
+                                <span>Serves: 4</span>
+
+                            </div>
+
+                            <a href="#ingredients" class="recipe-button">View Recipe</a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+                <div class="slider-controls">
+
+                    <label for="recipe3" class="arrow arrow-left left-one">←</label>
+
+                    <label for="recipe2" class="arrow arrow-right right-one">→</label>
+
+                    <label for="recipe1" class="arrow arrow-left left-two">←</label>
+
+                    <label for="recipe3" class="arrow arrow-right right-two">→</label>
+
+                    <label for="recipe2" class="arrow arrow-left left-three">←</label>
+
+                    <label for="recipe1" class="arrow arrow-right right-three">→</label>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="ingredients-section" id="ingredients">
+
+            <div class="container ingredients-layout">
+
+                <div class="ingredients-image">
+
+                    <img src="https://images.unsplash.com/photo-1556761223-4c4282c73f77?auto=format&fit=crop&w=900&q=85" alt="Fresh ingredients on a table">
+
+                </div>
+
+                <div class="ingredients-content">
+
+                    <p class="eyebrow">LET'S GET COOKING</p>
+
+                    <h2>Creamy Vegetable Pasta</h2>
+
+                    <p class="description">Everything you need to prepare a comforting homemade pasta dish.</p>
+
+                    <h3>Ingredients</h3>
+
+                    <ul class="ingredient-list">
+
+                        <li>200g pasta</li>
+
+                        <li>1 cup cooking cream</li>
+
+                        <li>1 bell pepper, chopped</li>
+
+                        <li>1 cup mushrooms, sliced</li>
+
+                        <li>2 cloves garlic, minced</li>
+
+                        <li>2 tablespoons olive oil</li>
+
+                        <li>Salt, pepper, and herbs</li>
+
+                    </ul>
+
+                    <h3>Instructions</h3>
+
+                    <ol class="instruction-list">
+
+                        <li>Boil the pasta in salted water until tender.</li>
+
+                        <li>Heat olive oil and cook the garlic and vegetables.</li>
+
+                        <li>Add the cream, seasoning, and cooked pasta.</li>
+
+                        <li>Mix everything together and serve warm.</li>
+
+                    </ol>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="popular container" id="popular">
+
+            <div class="popular-heading">
+
+                <div>
+
+                    <p class="eyebrow">OUR COLLECTION</p>
+
+                    <h2>Popular Recipes</h2>
+
+                </div>
+
+                <p>Easy ideas for your next delicious meal.</p>
+
+            </div>
+
+            <div class="recipe-grid">
+
+                <article class="recipe-card">
+
+                    <img src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=800&q=85" alt="Juicy burger">
+
+                    <div class="card-content">
+
+                        <span class="tag">LUNCH</span>
+
+                        <h3>Classic Beef Burger</h3>
+
+                        <p>A juicy homemade burger with fresh lettuce and tomatoes.</p>
+
+                        <div class="card-meta">
+
+                            <span>25 min</span>
+
+                            <span>Easy</span>
+
+                        </div>
+
+                        <a href="#ingredients">View Recipe →</a>
+
+                    </div>
+
+                </article>
+
+                <article class="recipe-card">
+
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=85" alt="Healthy salad bowl">
+
+                    <div class="card-content">
+
+                        <span class="tag">HEALTHY</span>
+
+                        <h3>Rainbow Salad Bowl</h3>
+                        <p>A colorful mix of fresh vegetables and a light dressing.</p>
+
+                        <div class="card-meta">
+
+                            <span>15 min</span>
+
+                            <span>Easy</span>
+
+                        </div>
+
+                        <a href="#ingredients">View Recipe →</a>
+
+                    </div>
+
+                </article>
+
+                <article class="recipe-card">
+
+                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=85" alt="Chocolate cake">
+
+                    <div class="card-content">
+
+                        <span class="tag">DESSERT</span>
+
+                        <h3>Chocolate Cake</h3>
+
+                        <p>A rich chocolate dessert perfect for every occasion.</p>
+
+                        <div class="card-meta">
+
+                            <span>50 min</span>
+
+                            <span>Medium</span>
+
+                        </div>
+
+                        <a href="#ingredients">View Recipe →</a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <a href="#" class="logo">Foodie<span>.</span></a>
+
+            <p>Made with love for people who love food.</p>
+
+            <p class="copyright">© 2026 Foodie. All rights reserved.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
